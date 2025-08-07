@@ -1,0 +1,10 @@
+.cardfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.total-text {
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.item-feedback {
+  border: solid 1px white;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #e4e6e5;
+  border-left: solid 5px #43a01e;
+}
+
+.item-feedback h3 {
+  font-weight: bolder;
+}
+
+.item-feedback article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,51 @@
+
+.cardapio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 50px;
+  
+}
+
+h2 {
+  /* text-align: center; */
+  color: black;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.empadas-container {
+  display: grid;
+  grid-template-columns: auto auto auto;  
+  justify-content: center;
+  gap: 50px;
+}
+
+.container-contato {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* justify-content: center; */
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+
+
+.container-feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.container-feedback ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+}

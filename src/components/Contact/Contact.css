@@ -1,0 +1,21 @@
+
+.container-contato form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 50%;
+  gap: 10px;
+}
+
+.container-contato form input, textarea {
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  border-color: green;
+}
+
+.container-contato form button {
+  background-color: green;
+  border-radius: 10px;
+  height: 40px;
+}
