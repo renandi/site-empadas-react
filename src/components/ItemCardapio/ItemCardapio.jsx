@@ -1,5 +1,6 @@
 import "./ItemCardapio.css";
 import PropTypes from "prop-types";
+import empadaIcone from "../../assets/empada-icone.png"
 
 function ItemCardapio({ product }) {
 
@@ -13,7 +14,7 @@ function ItemCardapio({ product }) {
     <>
       <article className="card">
         <h3>{product.name}</h3>
-        <img src="src/assets/empada-icone.png" alt="" height={200} />
+        <img src={empadaIcone} alt="" height={200} />
         <p>{product.description}</p>
         <span className="preco">
           {Intl.NumberFormat("pt-BR", {
