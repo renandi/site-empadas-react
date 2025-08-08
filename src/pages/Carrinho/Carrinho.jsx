@@ -73,7 +73,7 @@ function Carrinho() {
               carrinho.reduce((total, empada) => total + (Number(empada.price) || 0), 0)
             )}
           </span>
-          <Button variant="contained" endIcon={<WhatsApp />} onClick={sendMessageWhatsApp()}>
+          <Button variant="contained" endIcon={<WhatsApp />} onClick={sendMessageWhatsApp}>
             Enviar pedido
           </Button>
         </div>
